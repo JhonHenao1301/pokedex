@@ -1,0 +1,31 @@
+ 
+.variants {
+    grid-area: variants;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.variant {
+    inline-size: 2rem;
+    block-size: .5rem;
+    border-radius: 30%;
+    border: none;
+    overflow: hidden;
+    background-color: var(--yellow);
+    filter: drop-shadow(2px 2px 0 black);
+}
+
+.variant.is-blue {
+    background-color: var(--secondary);
+}
+
+.variant.is-big{
+    inline-size: 3rem;
+    block-size: 3rem;
+    border-radius: 50%;
+    border: .125rem solild var(--white);
+    box-sizing: border-box;
+    background-color: var(--secondary);
+}
+
