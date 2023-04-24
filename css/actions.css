@@ -8,3 +8,12 @@
     grid-template-areas: 'variants variants' 'search navigation' 'description navigation';
 }
 
+.actions::-webkit-scrollbar {
+     -webkit-appearance: none;
+     width: .3rem;
+}
+
+.actions::-webkit-scrollbar-thumb {
+    background-color: var(--dark-primary);
+    border-radius: .5rem;
+}
